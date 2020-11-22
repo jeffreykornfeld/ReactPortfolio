@@ -1,5 +1,5 @@
 .container{
-    background-color: #0094fd; 
+    background-color:lightgray; 
     border: solid black
 }
 
@@ -15,9 +15,23 @@ h1 {
 
 .col-md-6{
     letter-spacing: 2px;
+
 }
 
+
 img {
-    width:75%;
-    height:75%;
+    width:300px;
+    height:300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+    
+}
+
+.textbody {
+    text-align: center;
 }
