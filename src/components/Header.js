@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 import "../styles/Header.css"
 
 export default class Header extends Component {
@@ -13,10 +14,10 @@ export default class Header extends Component {
                     <div class="navbar-collapse collapse" id="collapsingNavbarLg">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="/about">About Me</a>
+                                <Link class="nav-link" to="/about">About Me</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/repos">Portfolio</a>
+                                <Link class="nav-link" to="/repos">Portfolio</Link>
                             </li>
                         </ul>
                     </div>
