@@ -28,6 +28,8 @@ export default class Main extends Component {
                 <a href="https://github.com/jeffreykornfeld"> My GitHub</a>
                 <br></br> 
                 <a href="https://docs.google.com/document/d/1TtBt-5gfJDf-YOtKAJd4mZWoXgQSjzv5tJUCAvzEYhY/edit?usp=sharing"> Resume</a>
+                <br></br>
+                <a href="https://www.linkedin.com/in/jeffrey-kornfeld/"> LinkedIn</a>
             
         </div>
     </div>
