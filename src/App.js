@@ -1,4 +1,5 @@
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 import Main from "./components/Main"
 import Portfolio from "./components/Portfolio"
 import About from "./components/About"
@@ -17,6 +18,7 @@ function App() {
         <Route path="/repos" component={Repos}/>
         <Route component={() => (<div>404 Not Found</div>)} />
       </Switch>
+      <Footer />
     </div>
   </Router>
   )
