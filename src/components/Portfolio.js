@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "../styles/Portfolio.css"
+import Project from "../components/Project"
 import LetsCelebrate from "../assets/images/LetsCelebrate.png"
 import WeatherDashboard from "../assets/images/WeatherDashboard.png"
 import GamingGladiators from "../assets/images/gaminggladiators.png"
@@ -8,6 +9,8 @@ import PasswordGenerator from "../assets/images/PasswordGenerator.png"
 import TemplateEngine from "../assets/images/TemplateEngine.png"
 
 export default class Portfolio extends Component {
+    
+    
     render() {
         return (
 
@@ -19,37 +22,23 @@ export default class Portfolio extends Component {
             </div>
 
             <div class="row">
-                
-                <div class="col-md-4">
-                    <img src= {LetsCelebrate} alt="LetsCelebrate" class="img-thumbnail"></img>
-                    <a class="nav-link" href="https://github.com/kbaur775/letscelebrate">Let's Celebrate!</a>
-                    
-                </div>
-     
-                <div class="col-md-4">
-                    <img src={WeatherDashboard} alt="WeatherDashboard" class="img-thumbnail"></img>
-                    <a class="nav-link" href="https://github.com/jeffreykornfeld/WeatherDashboard">Weather Dashboard</a>
-                </div>
-                
-                <div class="col-md-4">
-                    <img src={GamingGladiators} alt="GamingGladiators" class="img-thumbnail"></img>
-                    <a class="nav-link" href="https://github.com/dktrcoco/GamingGladiator">Gaming Gladiator</a>
-                </div>
-            </div>
+ 
+                <Project src={LetsCelebrate} alt="LetsCelebrate" href="https://github.com/kbaur775/letscelebrate" text = "Lets Celebrate"/>
+  
+                <Project src={WeatherDashboard} alt="WeatherDashboard" href="https://github.com/jeffreykornfeld/WeatherDashboard" text = "Weather Dashboard" />
 
+                <Project src={GamingGladiators} alt="GamingGladiators" href="https://github.com/dktrcoco/GamingGladiator" text = "Gaming Gladiator" />
+            </div>
             <div class="row">
-                <div class="col-md-4">
-                    <img src={WorkdayScheduler} alt="WorkdayScheduler" class="img-thumbnail"></img>
-                    <a class="nav-link" href="https://github.com/jeffreykornfeld/WorkDayScheduler">Workday Scheduler</a>
-                </div>
-                <div class="col-md-4">
-                    <img src={PasswordGenerator} alt="PasswordGenerator" class="img-thumbnail"></img>
-                    <a class="nav-link" href="https://github.com/jeffreykornfeld/PasswordGenerator">Password Generator</a>
-                </div>
-                <div class="col-md-4">
-                    <img src={TemplateEngine} alt="TemplateEngine" class="img-thumbnail"></img>
-                    <a class="nav-link" href="https://github.com/jeffreykornfeld/TemplateEngine_EmployeeSummary">Employee Summary Template Engine</a>
-                </div>
+                
+                    <Project src={WorkdayScheduler} alt="WorkdayScheduler" href="https://github.com/jeffreykornfeld/WorkDayScheduler" text = "Workday Scheduler"/>
+          
+               
+                    <Project src={PasswordGenerator} alt="PasswordGenerator" href="https://github.com/jeffreykornfeld/PasswordGenerator" text = "Password Generator" />
+              
+             
+                    <Project src={TemplateEngine} alt="TemplateEngine" href="https://github.com/jeffreykornfeld/TemplateEngine_EmployeeSummary" text = "Employee Summary" />
+              
             </div>
         </div>
 
