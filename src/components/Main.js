@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "../styles/Main.css"
-import MePic from "../assets/images/BandW.jpg"
+import MePic from "../assets/images/Headshot.jpg"
 
 export default class Main extends Component {
     render() {
@@ -15,15 +15,17 @@ export default class Main extends Component {
         
         </div>
         <div class="row">
+            <div class = "pic">
+                <img src= {MePic} alt="Headshot"></img>
             
-                <img src= {MePic} alt="ActionShot"></img>
-            
+            </div>
         </div>
         <div class="textbody">
 
             
-                <p> I'm a musician of 20+ years and an asipiring web developer. I'm currently enrolled in a Northwestern University Coding Bootcamp.
-                    Currently experienced with HTML, CSS, Javascript, APIs, OOP, NodeJS, express, MySQL, MVC (handlebars) and React. </p>
+                <p> I'm an aspiring backend web developer with a background in music. In December 2020, I graduated with a certificate from Northwestern's Coding Bootcamp.
+                   I have experience with the following languages: HTML, CSS, Javascript, APIs, OOP, NodeJS, Express, MySQL, MVC (handlebars) and React.
+                 I also have a Bachelor's Degree in Music Composition from McNally Smith College of Music. </p>
                 <br></br>
                 <a href="https://github.com/jeffreykornfeld"> My GitHub</a>
                 <br></br> 
