@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.66f82b8a.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.2e0a0f2a.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.2e0a0f2a.chunk.js.map",
+    "main.css": "/ReactPortfolio/static/css/main.41e869f1.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.7ce56bcb.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.7ce56bcb.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.3691dd87.js",
     "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.3691dd87.js.map",
     "static/css/2.43b2b750.chunk.css": "/ReactPortfolio/static/css/2.43b2b750.chunk.css",
@@ -12,21 +12,21 @@
     "static/js/3.7618b9f4.chunk.js.map": "/ReactPortfolio/static/js/3.7618b9f4.chunk.js.map",
     "index.html": "/ReactPortfolio/index.html",
     "static/css/2.43b2b750.chunk.css.map": "/ReactPortfolio/static/css/2.43b2b750.chunk.css.map",
-    "static/css/main.66f82b8a.chunk.css.map": "/ReactPortfolio/static/css/main.66f82b8a.chunk.css.map",
+    "static/css/main.41e869f1.chunk.css.map": "/ReactPortfolio/static/css/main.41e869f1.chunk.css.map",
     "static/js/2.a592cb13.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.a592cb13.chunk.js.LICENSE.txt",
-    "static/media/BandW.3f50ec83.jpg": "/ReactPortfolio/static/media/BandW.3f50ec83.jpg",
+    "static/media/Headshot.761ff661.jpg": "/ReactPortfolio/static/media/Headshot.761ff661.jpg",
     "static/media/LetsCelebrate.9a6f7cb7.png": "/ReactPortfolio/static/media/LetsCelebrate.9a6f7cb7.png",
-    "static/media/PasswordGenerator.964a5789.png": "/ReactPortfolio/static/media/PasswordGenerator.964a5789.png",
     "static/media/TemplateEngine.cc767bcf.png": "/ReactPortfolio/static/media/TemplateEngine.cc767bcf.png",
     "static/media/WeatherDashboard.ae0873d3.png": "/ReactPortfolio/static/media/WeatherDashboard.ae0873d3.png",
     "static/media/WorkDayScheduler.94d238d1.png": "/ReactPortfolio/static/media/WorkDayScheduler.94d238d1.png",
-    "static/media/gaminggladiators.666afaaa.png": "/ReactPortfolio/static/media/gaminggladiators.666afaaa.png"
+    "static/media/gaminggladiators.666afaaa.png": "/ReactPortfolio/static/media/gaminggladiators.666afaaa.png",
+    "static/media/simplestate.1c9dbea9.png": "/ReactPortfolio/static/media/simplestate.1c9dbea9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3691dd87.js",
     "static/css/2.43b2b750.chunk.css",
     "static/js/2.a592cb13.chunk.js",
-    "static/css/main.66f82b8a.chunk.css",
-    "static/js/main.2e0a0f2a.chunk.js"
+    "static/css/main.41e869f1.chunk.css",
+    "static/js/main.7ce56bcb.chunk.js"
   ]
 }
